@@ -123,7 +123,7 @@ installCluster ()
 apiVersion: k3d.io/v1alpha5
 kind: Simple
 metadata:
-name: ${CLUSTER_NAME}
+  name: ${CLUSTER_NAME}
 servers: ${SERVERS}
 agents: ${AGENTS}
 kubeAPI:
